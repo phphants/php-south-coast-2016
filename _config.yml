@@ -1,0 +1,30 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://2016.phpsouthcoast.co.uk
+title: PHP South Coast
+email: your-email@domain.com
+author: PHP South Coast
+description:
+  Join us for a PHP Conference on the south coast in Summer 2016!
+copyright: 'Copyright &copy; 2016 PHP South Coast conference. All Rights Reserved.'
+credits: ''
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/phpsouthcoast
+  - title: github
+    url: https://github.com/phphants/php-south-coast-2016
