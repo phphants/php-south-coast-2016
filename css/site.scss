@@ -12,15 +12,6 @@ html {
     height: 100%;
 }
 
-body {
-    /** temporary just for landing page **/
-    background: url(../img/stones.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 body,
 h1,
 h2,
@@ -29,7 +20,6 @@ h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
 }
 
 .lead {
@@ -42,8 +32,8 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    /*background: url(../img/stones.jpg) no-repeat center center;*/
-    /*background-size: cover;*/
+    background: url(../img/stones.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .intro-message {
@@ -101,11 +91,11 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
 }
 
 .content-section-b {
     padding: 50px 0;
+    background-color: #f8f8f8;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
