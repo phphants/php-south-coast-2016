@@ -6,6 +6,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import 'variables';
+
 html {
     position: relative;
     width: 100%;
@@ -35,7 +37,7 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    color: $header-bg-color;
     background: url(../img/stones.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -99,9 +101,9 @@ h6 {
 
 .content-section-b {
     padding: 50px 0;
-    background-color: #f8f8f8;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    background-color: $alt-content-bg-color;
+    border-top: 1px solid $alt-content-border-color;
+    border-bottom: 1px solid $alt-content-border-color;
 }
 
 .section-heading {
@@ -111,24 +113,7 @@ h6 {
 .section-heading-spacer {
     float: left;
     width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.banner ul {
-    margin-bottom: 0;
+    border-top: 3px solid $alt-content-border-color;
 }
 
 .banner-social-buttons {
@@ -171,15 +156,11 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: $footer-bg-color;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 132px;
-}
-
-p.copyright {
-    margin: 15px 0 0;
 }
 
 .user-groups {

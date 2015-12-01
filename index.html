@@ -14,14 +14,10 @@ order: 1
                         <h1>{{ site.confDate }}</h1>
                         <h3>{{ page.subTitle }}</h3>
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            {% for social in site.social %}
-                            <li>
-                                <a href="{{ social.url }}" class="btn btn-default btn-lg"><i
-                                        class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
-                            </li>
-                            {% endfor %}
-                        </ul>
+                        <a href="#" class="btn btn-default btn-lg disabled">
+                            <i class="fa fa-ticket"></i>
+                            <span>Tickets coming soon!</span>
+                        </a>
                     </div>
                 </div>
             </div>
