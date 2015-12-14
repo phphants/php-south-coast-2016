@@ -6,7 +6,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-@import 'variables';
+@import '../_sass/variables';
+@import '../_sass/bootstrap';
 
 html {
     position: relative;
@@ -175,3 +176,5 @@ footer {
         text-decoration: none;
     }
 }
+
+@import 'pages/sponsors';
