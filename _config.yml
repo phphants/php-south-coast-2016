@@ -20,6 +20,8 @@ confDate: Saturday 11th June 2016
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+    style: compressed
 
 # ----------------------- #
 #   3rd Party Settings    #
