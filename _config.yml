@@ -30,5 +30,7 @@ sass:
 social:
   - title: twitter
     url: https://twitter.com/phpsouthcoast
+  - title: facebook
+    url: https://www.facebook.com/events/196502660697792
   - title: github
     url: https://github.com/phphants/php-south-coast-2016
