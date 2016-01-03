@@ -66,6 +66,7 @@ h6 {
 }
 
 .intro-message a {
+    white-space: normal;
     font-size: 3em;
     padding: 0.5em 1.5em;
     //background-color: rgba(255,207,6, 1)
@@ -84,6 +85,14 @@ h6 {
 
     .intro-message > h1 {
         font-size: 3em;
+    }
+
+    .intro-message a {
+        padding: 0.5em;
+    }
+
+    .intro-message a:hover {
+        padding: 0.5em;
     }
 
     ul.intro-social-buttons > li {
