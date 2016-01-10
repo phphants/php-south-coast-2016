@@ -5,4 +5,13 @@ $footer-bg-color: darken($main-bg-color, 2%);
 $alt-content-bg-color: darken($main-bg-color, 2%);
 $alt-content-border-color: darken($alt-content-bg-color, 5%);
 
+$phpsc-yellow: #FCCB0A;
+$phpsc-blue: #434253;
+
+
+// Bootstrap overrides:
+
 $font-size-base: 15px;
+
+// collapse the nav at <993px because the logo and nav buttons take up quite a bit of space
+$grid-float-breakpoint: 992px;
