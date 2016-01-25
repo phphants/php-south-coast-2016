@@ -3,18 +3,36 @@ title: Press
 layout: default
 menu: footer
 order: 1
+logos:
+- phpsc-200
+- phpsc-300
+- phpsc-400
+- phpsc-500
 ---
 
 <div id="main" class="press">
     <div class="container">
-        <h2>Conference Assets</h2>
+        <header>
+            <h2>Conference Assets</h2>
+        </header>
         <p>
             If you would like to use our logo to link to the conference website for promotional reasons, please download
-            the EPS version of our logo. The EPS file below contains a vector-based image of our logo which can be
-            scaled to any resolution required and can be opened by most vector graphics editors.
+            one of the images below.
         </p>
+
+            {% for img in page.logos %}
         <p>
-            <img src="/img/logo-square.png" class="img-responsive img-thumbnail" alt="PHP South Coast Square Logo">
+
+        <a href="/assets/{{ img }}.png" target="_blank" title="Click to download"><!--
+                    --><img src="/assets/{{ img }}.png" class="img-responsive img-thumbnail" alt="PHP South Coast Logo"><!--
+                --></a>
+            </p>
+            {% endfor %}
+
+        <h3>Raw Format</h3>
+        <p>
+            Alternatively the EPS file below contains a vector-based image of our logo which can be
+            scaled to any resolution required and can be opened by most vector graphics editors.
         </p>
         <p>
             <a href="/assets/PHP%20South%20Coast%20-%20CMYK%20(compatible).eps" class="btn btn-primary btn-lg">
