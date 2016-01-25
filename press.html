@@ -4,10 +4,14 @@ layout: default
 menu: footer
 order: 1
 logos:
-- phpsc-200
-- phpsc-300
-- phpsc-400
-- phpsc-500
+- file: phpsc-200
+  size: 200x102
+- file: phpsc-300
+  size: 300x153
+- file: phpsc-400
+  size: 401x205
+- file: phpsc-500
+  size: 500x256
 ---
 
 <div id="main" class="press">
@@ -20,14 +24,17 @@ logos:
             one of the images below.
         </p>
 
-            {% for img in page.logos %}
+        {% for img in page.logos %}
         <p>
-
-        <a href="/assets/{{ img }}.png" target="_blank" title="Click to download"><!--
-                    --><img src="/assets/{{ img }}.png" class="img-responsive img-thumbnail" alt="PHP South Coast Logo"><!--
+            <figure class="figure">
+                <a href="/assets/{{ img.file }}.png" target="_blank" title="Click to download"><!--
+                    --><img src="/assets/{{ img.file }}.png" class="img-responsive img-thumbnail"
+                            alt="PHP South Coast Logo"><!--
                 --></a>
-            </p>
-            {% endfor %}
+                <figcaption class="figure-caption">Size: {{ img.size }}px</figcaption>
+            </figure>
+        </p>
+        {% endfor %}
 
         <h3>Raw Format</h3>
         <p>
