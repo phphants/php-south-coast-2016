@@ -9,21 +9,37 @@ order: 2
     <div class="container">
         <header>
             <h2>{{page.title}}</h2>
-            <h3>{{ site.confDate }}</h3>
+            <p class="lead">The conference takes place on one day, {{ site.confDate }}.</p>
         </header>
+
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>Time</th>
-                <th>Spectrum IT Room</th>
-                <th>TBC Room</th>
+                <th class="col-md-1">Time</th>
+                <th>Foyer</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>08:00</td>
-                <td colspan="2">Registration &amp; refreshments</td>
+                <td>
+                    <strong>Registration &amp; refreshments</strong>
+                    <p>Please arrive between 8am and 9am to register. A light breakfast including tea, coffee and
+                        pastries will be available.</p>
+                </td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Spectrum IT Room</th>
+                <th>TBC Room</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>09:00</td>
                 <td>Opening address</td>
@@ -31,8 +47,10 @@ order: 2
             </tr>
             <tr>
                 <td>09:10</td>
-                <td class="talk">Keynote</td>
-                <td></td>
+                <td class="talk">
+                    <h4>Keynote</h4>
+                </td>
+                <td class="talk"></td>
             </tr>
             <tr>
                 <td>10:00</td>
@@ -40,34 +58,92 @@ order: 2
             </tr>
             <tr>
                 <td>10:10</td>
-                <td rowspan="2">Talk 1</td>
-                <td>Talk 2</td>
+                <td rowspan="2" class="talk">
+                    <h4>Talk 1</h4>
+                </td>
+                <td class="talk">
+                    <h4>Talk 2</h4>
+                </td>
             </tr>
             <tr>
                 <td>10:40</td>
-                <td>Talk 3</td>
+                <td class="talk">
+                    <h4>Talk 3</h4>
+                </td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Foyer</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>11:00</td>
-                <td colspan="2">Break &amp; Refreshments</td>
+                <td colspan="2">
+                    <strong>Break &amp; refreshments</strong>
+                    <p>Tea and biccies!</p>
+                </td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Spectrum IT Room</th>
+                <th>TBC Room</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>11:30</td>
-                <td>Talk 4</td>
-                <td>Talk 5</td>
+                <td class="talk">Talk 4</td>
+                <td class="talk">Talk 5</td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Foyer</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>12:20</td>
-                <td colspan="2">Lunch service</td>
+                <td colspan="2">
+                    <strong>Lunch service</strong>
+                    <p>Some hot, hopefully nice food will be served. Maybe with peas or something.</p>
+                </td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Spectrum IT Room</th>
+                <th>TBC Room</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>13:30</td>
-                <td rowspan="2">Talk 6</td>
-                <td>Talk 7</td>
+                <td class="talk" rowspan="2"><h4>Talk 6</h4></td>
+                <td class="talk"><h4>Talk 7</h4></td>
             </tr>
             <tr>
                 <td>14:00</td>
-                <td>Talk 8</td>
+                <td class="talk"><h4>Talk 8</h4></td>
             </tr>
             <tr>
                 <td>14:20</td>
@@ -75,25 +151,81 @@ order: 2
             </tr>
             <tr>
                 <td>14:30</td>
-                <td>Talk 9</td>
-                <td>Talk 10</td>
+                <td class="talk"><h4>Talk 9</h4></td>
+                <td class="talk"><h4>Talk 10</h4></td>
             </tr>
+            </tbody>
+        </table>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Foyer</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>15:20</td>
-                <td colspan="2">Break &amp; refreshments</td>
+                <td colspan="2">
+                    <strong>Break &amp; refreshments</strong>
+                    <p>More tea and biccies!</p>
+                </td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Spectrum IT Room</th>
+                <th>TBC Room</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>15:50</td>
-                <td>Talk 11</td>
-                <td>Talk 12</td>
+                <td class="talk"><h4>Talk 11</h4></td>
+                <td class="talk"><h4>Talk 12</h4></td>
             </tr>
             <tr>
                 <td>16:40</td>
-                <td colspan="2">Closing address</td>
+                <td colspan="2">
+                    <strong>Closing address</strong>
+                    <p>Please can all attendees join us as we wrap the conference up.</p>
+                </td>
             </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Foyer</th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>17:00</td>
-                <td colspan="2">Social</td>
+                <td colspan="2">
+                    <strong>Social &amp; dinner</strong>
+                    <p>A complimentary dinner service will be provided in the main hall from 17:30 - 19:00.</p>
+
+                    <strong>Laser Quest</strong>
+                    <p>To partake in the free laser quest activity, please go to the main registration desk to sign up.
+                        You can form your own team, or just join in with a game. Make sure to thank Digital Ocean for
+                        sponsoring this activity!</p>
+
+                    <strong>Board games & card games, provided by A Fistful of Dice</strong>
+                    <p>Board and card games are free to play in the Magma Digital room after the conference ends. These
+                        are provided by a local games shop in Portsmouth, A Fistful of Dice.</p>
+
+                    <strong>Bottle bar service</strong>
+                    <p>A cash bottle bar will open immediately after the closing address at 17:00 in the main hall
+                        serving a selection of beer, cider, wine and soft drinks.
+                    </p>
+                </td>
             </tr>
             </tbody>
         </table>
