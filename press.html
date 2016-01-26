@@ -1,0 +1,51 @@
+---
+title: Press
+layout: default
+menu: footer
+order: 1
+logos:
+- file: phpsc-200
+  size: 200x102
+- file: phpsc-300
+  size: 300x153
+- file: phpsc-400
+  size: 401x205
+- file: phpsc-500
+  size: 500x256
+---
+
+<div id="main" class="press">
+    <div class="container">
+        <header>
+            <h2>Conference Assets</h2>
+        </header>
+        <p>
+            If you would like to use our logo to link to the conference website for promotional reasons, please download
+            one of the images below.
+        </p>
+
+        {% for img in page.logos %}
+        <p>
+            <figure class="figure">
+                <a href="/assets/{{ img.file }}.png" target="_blank" title="Click to download"><!--
+                    --><img src="/assets/{{ img.file }}.png" class="img-responsive img-thumbnail"
+                            alt="PHP South Coast Logo"><!--
+                --></a>
+                <figcaption class="figure-caption">Size: {{ img.size }}px</figcaption>
+            </figure>
+        </p>
+        {% endfor %}
+
+        <h3>Raw Format</h3>
+        <p>
+            Alternatively the EPS file below contains a vector-based image of our logo which can be
+            scaled to any resolution required and can be opened by most vector graphics editors.
+        </p>
+        <p>
+            <a href="/assets/PHP%20South%20Coast%20-%20CMYK%20(compatible).eps" class="btn btn-primary btn-lg">
+                <i class="fa fa-download fa-fw"></i>
+                Download logo as EPS
+            </a>
+        </p>
+    </div>
+</div>

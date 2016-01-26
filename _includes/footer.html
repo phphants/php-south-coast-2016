@@ -3,6 +3,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                <ul class="list-inline">
+                    {% assign pages = site.pages | sort:"order" %}
+                    {% for node in pages %}
+                        {% if node.menu == 'footer' %}
+                            {% if page.url == node.url %}
+                                <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+                            {% else %}
+                                <li><a href="{{node.url}}">{{node.title}}</a></li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
                 <p class="copyright text-muted small">{{ site.copyright }}</p>
             </div>
             <div class="col-md-4">
