@@ -1,12 +1,22 @@
 .schedule {
     table {
-        td {
-            padding: 12px;
-
+        tr {
             &.talk {
-                border-left: 1px solid #CCC;
-                padding-bottom: 30px;
+                td {
+                    padding: 12px;
+
+                    padding-bottom: 30px;
+
+                    img {
+                        margin: 0 15px 10px 0;
+                        float: left;
+                    }
+
+                    h4 {
+                    }
+                }
             }
         }
+
     }
 }

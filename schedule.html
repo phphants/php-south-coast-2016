@@ -16,7 +16,7 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1">Time</th>
-                <th>Foyer</th>
+                <th>Atrium</th>
             </tr>
             </thead>
             <tbody>
@@ -35,8 +35,8 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Spectrum IT Room</th>
-                <th>TBC Room</th>
+                <th class="col-md-6">Spectrum IT Room</th>
+                <th class="col-md-5">TBC Room</th>
             </tr>
             </thead>
             <tbody>
@@ -45,30 +45,85 @@ order: 2
                 <td>Opening address</td>
                 <td></td>
             </tr>
-            <tr>
-                <td>09:10</td>
-                <td class="talk">
-                    <h4>Keynote</h4>
+            <tr class="talk">
+                <td><h4>09:10</h4></td>
+                <td>
+                    <h4>
+                        <em class="small">Chris' first ever UK talk</em>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Chris Hartjes"/>
+                        <br>
+                        Keynote: An Oral History of How I Got Grumpy
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/chris-hartjes/">Chris Hartjes</a>
+                    </h5>
                 </td>
-                <td class="talk"></td>
+                <td></td>
             </tr>
             <tr>
-                <td>10:00</td>
+                <td>09:50</td>
                 <td colspan="2">Room change</td>
             </tr>
-            <tr>
-                <td>10:10</td>
-                <td rowspan="2" class="talk">
-                    <h4>Talk 1</h4>
+            <tr class="talk">
+                <td><h4>10:00</h4></td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Michael Heap"/>
+                        Profiling Your PHP Application
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/michael-heap/">Michael Heap</a>
+                    </h5>
+                    <p>
+                        So, you've been through and changed all your double quotes to single quotes but your
+                        application still isn't running at the speed of light. What's going on?
+                    </p>
+                    <p>
+                        Making an application scale is generally seen as something that only the most magical of
+                        developers can do, but it's easy once you have the correct tools. Fortunately for us, these
+                        tools are freely available online!
+                    </p>
+                    <p>
+                        In this talk, we'll take a look at a few options that we have available to work out what our
+                        application is actually doing, help identify bottlenecks and fix them so that we can move on to
+                        the more important part of the project: delivering features. "
+                    </p>
                 </td>
-                <td class="talk">
-                    <h4>Talk 2</h4>
-                </td>
-            </tr>
-            <tr>
-                <td>10:40</td>
-                <td class="talk">
-                    <h4>Talk 3</h4>
+                <td class="talk col-md-5">
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Mark Baker"/>
+                        A Functional Guide to Cat Herding with PHP Generators
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/mark-baker/">Mark Baker</a>
+                    </h5>
+                    <p>
+                        When working with arrays in PHP, three of the most useful functions available to us are
+                        arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the
+                        value of array elements, select a subset of values from an array, or reduce an array to a single
+                        value; all using a callback function to determine exactly what logic should be applied. The use
+                        of the callback makes them extremely flexible, and these functions can be particularly powerful,
+                        especially when combined (or chained) together.
+                    </p>
+                    <p>
+                        However, these functions only work with standard PHP arrays; so if we are using Generators as a
+                        data source instead of an array, then we can't take advantage of the functionality that they
+                        provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators
+                        (and also to other Traversable objects like SPL Iterators), giving us access to all of the
+                        flexibility and power that mapping, filtering and reducing can offer, and with all the benefits
+                        that Generators can offer our code.
+                    </p>
+                    <p>So how do we go about implementing filter(), map() and reduce() functions for our Generators? How
+                        do we use those functions in our applications? I'll be answering those two questions, and
+                        explaining how I keep track of my cats armed only with a GPS Tracker and, PHP Generators, and
+                        filter/map/reduce.
+                    </p>
                 </td>
             </tr>
             </tbody>
@@ -78,13 +133,13 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Foyer</th>
+                <th>Atrium</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>11:00</td>
-                <td colspan="2">
+                <td>10:50</td>
+                <td>
                     <strong>Break &amp; refreshments</strong>
                     <p>Tea and biccies!</p>
                 </td>
@@ -96,15 +151,74 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Spectrum IT Room</th>
-                <th>TBC Room</th>
+                <th class="col-md-6">Spectrum IT Room</th>
+                <th class="col-md-5">TBC Room</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>11:30</td>
-                <td class="talk">Talk 4</td>
-                <td class="talk">Talk 5</td>
+            <tr class="talk">
+                <td><h4>11:15</h4></td>
+                <td rowspan="2">
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Rob Allen"/>
+                        Building APIs with Slim 3
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/rob-allen/">Rob Allen</a>
+                    </h5>
+                    <p>
+                        Fast, discrete APIs are a key part of many web applications and Slim 3 is a fantastic platform
+                        for building them. With a focus on PSR-7, the new standard for HTTP messaging in PHP, Slim's
+                        middleware focus and ability to get out of the way ensure thats you can buld APIs that are a joy
+                        to work with. We'll cover content-type handling, accept header awareness, error handling and all
+                        the other things required to ensure that your APIs are easy to integrate with. By the end of
+                        this session you will be well placed to write your own APIs with Slim 3.
+                    </p>
+                </td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Clair Shaw"/>
+                        There's More to Code Reviews than You Might Think
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/clair-shaw/">Clair Shaw</a>
+                    </h5>
+                    <p>
+                        So, you do code reviews, and that's great. But there's always more that you can check during the
+                        review. More places you can check for any potential bugs or problems before deployment, before
+                        you find yourself with technical debt. Or worse: unforeseen downtime.
+                    </p>
+                    <p>
+
+                        In this talk I will be going through the things that you should be checking to ensure confidence
+                        for developers, project owners and stakeholders. We'll be looking at documentation, commit
+                        messages, and common code problems, with examples and tips along the way.
+                    </p>
+                </td>
+            </tr>
+            <tr class="talk">
+                <td><h4>11:45</h4></td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Tess Barnes"/>
+                        Version Control - Tips, Tricks and Good Citizenship
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/tess-barnes/">Tess Barnes</a>
+                    </h5>
+                    <p>
+                        Are you nervous of version control even if you don't admit it? Have things got harder since your
+                        team expanded? Don't panic! you're not on your own. I've put together a run down of some of my
+                        tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with
+                        the remaining ones as efficiently as possible.
+                    </p>
+                </td>
             </tr>
             </tbody>
         </table>
@@ -113,13 +227,13 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Foyer</th>
+                <th>Atrium</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>12:20</td>
-                <td colspan="2">
+                <td>12:05</td>
+                <td>
                     <strong>Lunch service</strong>
                     <p>Some hot, hopefully nice food will be served. Maybe with peas or something.</p>
                 </td>
@@ -131,42 +245,71 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Spectrum IT Room</th>
-                <th>TBC Room</th>
+                <th class="col-md-6">Spectrum IT Room</th>
+                <th class="col-md-5">TBC Room</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>13:30</td>
-                <td class="talk" rowspan="2"><h4>Talk 6</h4></td>
-                <td class="talk"><h4>Talk 7</h4></td>
-            </tr>
-            <tr>
-                <td>14:00</td>
-                <td class="talk"><h4>Talk 8</h4></td>
-            </tr>
-            <tr>
-                <td>14:20</td>
-                <td colspan="2">Room change</td>
-            </tr>
-            <tr>
-                <td>14:30</td>
-                <td class="talk"><h4>Talk 9</h4></td>
-                <td class="talk"><h4>Talk 10</h4></td>
+            <tr class="talk">
+                <td><h4>13:10</h4></td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Marco Pivetta"/>
+                        Extremely Defensive PHP Programming
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/marco-pivetta/">Marco Pivetta</a>
+                    </h5>
+                    <p>
+                        Resistant, highly testable, safe and maintainable code... or not?
+                    </p>
+                    <p>
+                        There are a thousand ways to break your code, and a lot of ways to prevent that from happening.
+                    </p>
+                    <p>
+                        Let's explore defensive programming and learn how to protect our code from invalid usage.
+                    </p>
+                </td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Chris Riley"/>
+                        The Secrets of Cryptography
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/chris-riley/">Chris Riley</a>
+                    </h5>
+                    <p>
+                        Alice and Bob have secrets they want to talk about without Eve being able to listen in. Worse
+                        yet, the mischievous Mallory delights in changing messages sent between parties. In such a
+                        hostile environment how can Alice talk to Bob without their messages being overheard and how can
+                        she be sure that it was Bob that sent the message in the first place?
+                    </p>
+                    <p>
+                        This talk will take a brief look at historic codes and ciphers before taking a look at modern
+                        day Cryptography. If you want to be able to know the difference between a block cipher and a
+                        stream cipher or get a glimpse into the mathematics behind public key Cryptography this talk is
+                        for you.
+                    </p>
+                </td>
             </tr>
             </tbody>
         </table>
+
         <table class="table table-striped">
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Foyer</th>
+                <th>Atrium</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>15:20</td>
-                <td colspan="2">
+                <td>14:00</td>
+                <td>
                     <strong>Break &amp; refreshments</strong>
                     <p>More tea and biccies!</p>
                 </td>
@@ -178,18 +321,217 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Spectrum IT Room</th>
-                <th>TBC Room</th>
+                <th class="col-md-6">Spectrum IT Room</th>
+                <th class="col-md-5">TBC Room</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="talk">
+                <td><h4>14:20</h4></td>
+                <td rowspan="2">
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Anthony Ferrara"/>
+                        Anatomy of a Type System
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/athony-ferrara/">Anthony Ferrara</a>
+                    </h5>
+                    <p>
+                        PHP 7 has arrived! One of the major features that it brings with it is the ability to use scalar
+                        typing. Are you ready for it? Join me as we take a tour through PHP 7's type system from end to
+                        end. Don't know what a type is? Come and find out! Are you a seasoned type user? Come learn how
+                        to leverage the new options! Confused about weak vs strict types? We'll cover concept, theory
+                        and practical details of the type system while exploring how PHP's type system compares to other
+                        languages.
+                    </p>
+                </td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Gianluca Arbezzano"/>
+                        Parallel Made Easy
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/gianluca-arbezzano/">Gianluca Arbezzano</a>
+                    </h5>
+                    <p>
+                        Thank to cloud computing to split processes on different machines now is very easy, during this
+                        talk I will share an experience made in Corley SRL with the Zend Framework Core Team to split
+                        all ZF's git history in different isolated components (one of the main feature of ZF3). I chose
+                        this case study because it helps me to explain as it is easy with AWS, a bit of PHP and bash
+                        split an history made of other 20.000 commits.
+                    </p>
+                </td>
+            </tr>
+            <tr class="talk">
+                <td><h4>14:50</h4></td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Dave Hulbert"/>
+                        Practical Intro to Using PhpSpec
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/dave-hulbert/">Dave Hulbert</a>
+                    </h5>
+                    <p>
+                        "PhpSpec is a tool for "SpecBDD". Basically test-driven development (TDD) but without the word
+                        "test" in it. This talk shows how to effectively use PhpSpec for fun and/or profit, and the
+                        advantages to using it along side other tools like PHPUnit and why it's "literally" made of
+                        awesomesauce.
+                    </p>
+                    <p>
+                        We'll start off with a breakneck primer on unit testing with PHPUnit and basic TDD concepts.
+                        Then we'll move on to getting set up with PhpSpec, followed by a guided tour of its main
+                        features. By the end of the talk you'll have techniques to take advantage of your natural
+                        inclination to lazyness to actually help you write better code.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>15:10</td>
+                <td colspan="2">Room change</td>
+            </tr>
+            <tr class="talk">
+                <td><h4>15:20</h4></td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Bastian Hofmann"/>
+                        HTTP/2.0 101 Introduction
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/bastian-hoffman/">Bastian Hofmann</a>
+                    </h5>
+                    <p>
+                        After 16 years a new version of the HTTP protocol has now been finalized and wide support in
+                        browsers and web servers is coming quickly. In this talk I'll explain how HTTP and browsers work
+                        in general and what you currently have to do to make your application as fast as possible. Based
+                        on this I'll show what HTTP/2.0 is all about, what it changes and how it can help your
+                        application's performance.
+                    </p>
+                </td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Oliver Davies"/>
+                        Drupal 8 - Rejoining the Herd
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/oliver-davies/">Oliver Davies</a>
+                    </h5>
+                    <p>
+                        <a href="https://www.drupal.org/8">Drupal 8</a> was (finally) released on November 19th 2015,
+                        after almost 4 years of work and code commits by over 3,200 different contributors. Whilst
+                        it's pretty much the same as the Drupal that we know and, hopefully, love, a lot has changed
+                        behind the scenes and under the hood!
+                    </p>
+                    <p>
+                        In this talk, I'll highlight some of the new features and improvements in Drupal 8, and discuss
+                        some of the benefits to Drupal site builders, themers, and module developers. I'll also talk
+                        about some of the non-technical changes and the cultural shift from "not invented here" to
+                        "proudly found elsewhere", and how we are rejoining the PHP herd.
+                    </p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th>Atrium</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>15:50</td>
-                <td class="talk"><h4>Talk 11</h4></td>
-                <td class="talk"><h4>Talk 12</h4></td>
+                <td>16:10</td>
+                <td>
+                    <strong>Break &amp; refreshments</strong>
+                    <p>Tea and biccies yet again.</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="col-md-1"></th>
+                <th class="col-md-6">Spectrum IT Room</th>
+                <th class="col-md-5">TBC Room</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="talk">
+                <td><h4>16:35</h4></td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Sara Goleman"/>
+                        Extended in 30 Minutes or Less, or Your Money Back
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/sara-goleman/">Sara Goleman</a>
+                    </h5>
+                    <p>
+                        Language runtimes do their best to meet all your development needs, but sometimes there's some
+                        random C library you need access to from a higher level language, and it's just not there.
+                        Learning PHP's zvals and HashTables, and its score of macros and pointers can be intimidating
+                        and off-putting. I'll show that there's a better way: HHVM extensions require little more
+                        experience than a firm knowledge of PHP, and a willingness to break things. By the end of this
+                        presentation, we'll have live-coded a real-world extension wrapping a real-world library, and
+                        you'll be able to as well.
+                    </p>
+                    <p>
+
+                        * Offer of money back is satirical in nature and does not guarantee actual refund for any
+                        purposes. :)
+                    </p>
+                </td>
+                <td>
+                    <h4>
+                        <img src="http://lorempixel.com/120/120/people/" class="img-responsive img-thumbnail"
+                             alt="Chris Sherry"/>
+                        WordPress for the Modern PHP Developer
+                    </h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/chris-sherry/">Chris Sherry</a>
+                    </h5>
+                    <p>
+                        I have a love-hate relationship with WordPress, but whether you like it or not, it powers 23% of
+                        the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites
+                        and are now highly customised web applications. However the modern tools we use as PHP
+                        developers can be tricky to utilise with the popular blogging platform.
+                    </p>
+                    <p>
+                        This technical talk will guide you through how to make the use of Git, Composer, and other tools
+                        familiar to PHP developers within your WordPress install - and help you take back control of
+                        your themes, plug-ins, database and environments in a growing application.
+                    </p>
+                </td>
+            </tr>
+            <tr class="talk">
+                <td><h4>17:25</h4></td>
+                <td colspan="2">
+                    <h4>JeoPHPardy!</h4>
+                    <h5>
+                        <i class="fa fa-user fa-fw"></i>
+                        <a href="/speakers/jeremy-mikola/">Jeremy Mikola</a>
+                    </h5>
+                </td>
             </tr>
             <tr>
-                <td>16:40</td>
+                <td>17:55</td>
                 <td colspan="2">
                     <strong>Closing address</strong>
                     <p>Please can all attendees join us as we wrap the conference up.</p>
@@ -202,13 +544,13 @@ order: 2
             <thead>
             <tr>
                 <th class="col-md-1"></th>
-                <th>Foyer</th>
+                <th>Atrium</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>17:00</td>
-                <td colspan="2">
+                <td>18:10</td>
+                <td>
                     <strong>Social &amp; dinner</strong>
                     <p>A complimentary dinner service will be provided in the main hall from 17:30 - 19:00.</p>
 
