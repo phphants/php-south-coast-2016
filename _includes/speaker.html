@@ -1,0 +1,46 @@
+{% assign speaker = site.data.speakers[page.speaker] %}
+<div id="main" class="speaker">
+    <div class="container">
+        <article>
+            <header>
+                <h2>{{speaker.name}}</h2>
+            </header>
+            {% if speaker.avatar %}
+                <img src="/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" class="img-responsive img-thumbnail pull-left"/>
+            {% endif %}
+
+            <p>{{ speaker.bio | newline_to_br}}</p>
+
+            {% if speaker.twitter %}
+                <p>
+                    <i class="fa fa-twitter"></i>
+                    <a href="https://twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>
+                </p>
+            {% endif %}
+
+            <div class="clearfix"></div>
+
+            {% for talk in speaker.talks %}
+                <h3>
+                    Talk: {{ talk.title }}
+                    {% if talk.is_keynote %}
+                        <em class="small">(Keynote)</em>
+                    {% endif %}
+                </h3>
+
+                {% if talk.joindin %}
+                <p>
+                    Joind.in:
+                    <a title="Use this link to give feedback" href="{{ talk.joindin }}">{{ talk.joindin }}</a>
+                </p>
+                {% endif %}
+
+                <p>{{ talk.abstract | newline_to_br}}</p>
+            {% endfor %}
+
+            <hr/>
+
+            <a href="/schedule/">&laquo; Back to the schedule</a>
+        </article>
+    </div>
+</div>

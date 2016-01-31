@@ -1,0 +1,215 @@
+allen:
+  name: Rob Allen
+  avatar: allen.jpg
+  twitter: akrabat
+  bio: |
+    Rob Allen is a software developer and consultant with many years of web development experience using PHP and related technologies. He contributes to Zend Framework and other open source projects. A Zend Framework specialist, Rob is a member of the ZF Community team and also wrote Zend Framework in Action. He is UK-based and runs [Nineteen Feet Limited](http://19ft.com), focussing on web development, training and consultancy.
+  talks:
+    - title: Building APIs with Slim 3
+      abstract: |
+        Fast, discrete APIs are a key part of many web applications and Slim 3 is a fantastic platform for building them. With a focus on PSR-7, the new standard for HTTP messaging in PHP, Slim's middleware focus and ability to get out of the way ensure thats you can buld APIs that are a joy to work with. We'll cover content-type handling, accept header awareness, error handling and all the other things required to ensure that your APIs are easy to integrate with. By the end of this session you will be well placed to write your own APIs with Slim 3.
+
+arbezzano:
+  name: Gianluca Arbezzano
+  avatar: arbezzano.jpg
+  twitter: gianarb
+  bio: |
+    Software Engineer at CurrencyFair a tech financial company. I am a PHP developer but I work on different stack layers, automation, scalability and HA. Open Source contributor for several projects, above all Zend Framework, and member of Doctrine ORM developers team. Strong believer in best developing practices and supporter of different User Groups.
+
+    My fields of interest are various and constantly in evolution: in the last year, I worked a lot on scalable infrastructures, reaching the goal of building some of them on top of AWS, DigitalOcean and Open Stack.
+  talks:
+    - title: Parallel made easy
+      abstract: |
+        Thank to cloud computing to split processes on different machines now is very easy, during this talk I will share an experience made in Corley SRL with the Zend Framework Core Team to split all ZF's git history in different isolated components (one of the main feature of ZF3). I chose this case study because it helps me to explain as it is easy with AWS, a bit of PHP and bash split an history made of other 20.000 commits.
+
+barnes:
+  name: Tess Barnes
+  avatar: barnes.jpg
+  twitter: crataegustess
+  bio: |
+    Tess is a multi language developer at Fasthosts, an active participant in their PHPGuild and an advocate of agile principles. She spends most of her day writing, refactoring, reviewing, discussing and documenting code. In spare time she plays with ORMs, occasionally blogs at [http://blog.tessbarnes.uk](http://blog.tessbarnes.uk), sings with a covers band and spends time with her family. She relaxes by training in martial arts.
+  talks:
+    - title: Version Control - tips, tricks and good citizenship
+      abstract: |
+        Are you nervous of version control even if you don't admit it? Have things got harder since your team expanded? Don't panic! you're not on your own. I've put together a run down of some of my tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with the remaining ones as efficiently as possible.
+
+baker:
+  name: Mark Baker
+  avatar: baker.png
+  twitter: mark_baker
+  bio: |
+    Mark is Head of Design and Development at Innoved (Innovative Solutions for Education) Learning, based in Wigan; a company which (coincidentally) shares offices with his favourite Rugby League team, the 2013 Superleague and Challenge Cup winners, and which occasionally gets him free tickets to attend Warriors games.
+
+    He has been working in the computer software industry since before symbolics.com was registered as a domain name, before the term "cyberspace" was first used in fiction, when Linus Torvalds and Rasmus Lerdorf were still at high school, and Mrs. Zuckerberg had yet to give birth to a bouncing baby social network enabler; and has been developing for the Web in a variety of languages since the days when the Tim Berners-Lee's creation comprised less than 1,000 sites.
+
+    Over those years, he has contributed to a number of open source projects: some still extant, others lost to history, including a minor submission to PHP's SPL. Currently he is coordinator and lead developer for the PHPExcel library, and a coordinator and developer on the PHPOffice library suite (PHPWord, PHPPowerPoint, PHPProject and PHPVisio). Most recently, he has been working on new datastructures such as Tries, Quadtrees and Matrices; hoping that he'll be able to get them included in SPL.
+
+    His particular interests include PHP integration with office suites, Textual analysis, Geodata and geographic information systems, and "big data" and data analysis.
+  talks:
+    - title: A Functional Guide to Cat Herding with PHP Generators
+      abstract: |
+        When working with arrays in PHP, three of the most useful functions available to us are arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the value of array elements, select a subset of values from an array, or reduce an array to a single value; all using a callback function to determine exactly what logic should be applied. The use of the callback makes them extremely flexible, and these functions can be particularly powerful, especially when combined (or chained) together.
+         However, these functions only work with standard PHP arrays; so if we are using Generators as a data source instead of an array, then we can't take advantage of the functionality that they provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators (and also to other Traversable objects like SPL Iterators), giving us access to all of the flexibility and power that mapping, filtering and reducing can offer, and with all the benefits that Generators can offer our code.
+
+        So how do we go about implementing filter(), map() and reduce() functions for our Generators? How do we use those functions in our applications? I'll be answering those two questions, and explaining how I keep track of my cats armed only with a GPS Tracker and, PHP Generators, and filter/map/reduce.
+
+davies:
+  name: Oliver Davies
+  avatar: davies.jpg
+  twitter: opdavies
+  bio: |
+    Oliver Davies has been building websites since 2007, and specialising in PHP and Drupal since 2008. He is currently a Lead Developer at [CTI Digital](https://www.ctidigital.com), is a Drupal 7 and 8 core contributor, and a provisional member of the Drupal Security team. In Oliver's spare time, he enjoys spending time with his family, co-organises the [Drupal Bristol](http://www.drupalbristol.org.uk) and [PHPSW](https://phpsw.uk) user groups, and is a [DrupalCamp Bristol](http://www.drupalcampbristol.co.uk) committee member. You can follow him on Twitter at [@opdavies](https://twitter.com/opdavies).
+  talks:
+    - title: Drupal 8 - Rejoining the Herd
+      abstract: |
+        [Drupal 8](https://www.drupal.org/8) was (finally) released on November 19th 2015, after almost 4 years of work and code commits by over 3,200 different contributors. Whilst it's pretty much the same as the Drupal that we know and, hopefully, love, a lot has changed behind the scenes and under the hood!
+
+        In this talk, I'll highlight some of the new features and improvements in Drupal 8, and discuss some of the benefits to Drupal site builders, themers, and module developers. I'll also talk about some of the non-technical changes and the cultural shift from "not invented here" to "proudly found elsewhere", and how we are rejoining the PHP herd.
+
+ferrara:
+  name: Anthony Ferrara
+  avatar: ferrara.jpg
+  twitter: ircmaxell
+  bio: |
+    Anthony Ferrara works at Grovo as Director of Engineering. He specializes in Object Oriented Design, Application Architecture, Web Application Security and PHP. He is a contributor to multiple Open Source projects, as well as the PHP community as a whole. You can follow his blog at <a href="blog.ircmaxell.com">blog.ircmaxell.com</a> or on Twitter at @ircmaxell.
+  talks:
+    - title: Anatomy of a Type System
+      abstract: |
+        PHP 7 has arrived! One of the major features that it brings with it is the ability to use scalar typing. Are you ready for it? Join me as we take a tour through PHP 7's type system from end to end. Don't know what a type is? Come and find out! Are you a seasoned type user? Come learn how to leverage the new options! Confused about weak vs strict types? We'll cover concept, theory and practical details of the type system while exploring how PHP's type system compares to other languages.
+
+hartjes:
+  name: Chris Hartjes
+  avatar: grumpy.jpg
+  twitter: grumpyprogrammer
+  bio: |
+    Chris Hartjes has been building web applications of all shapes and sizes since 1998, ranging from catalogs of CD compilations for professional DJ's to portal pages for large US cable television providers. Along the way he learned some painful lessons about testing applications and hasn't shut up about them ever since.
+
+    Working from his basement office in the snowy wilds of Canada, he spends his days working for Mozilla as a Senior QA Engineer helping test their cloud-based services. At night (and on Fridays) he works on his info-product empire at http://grumpy-learning.com producing books, screencasts, and newsletters promoting the secret weapons of testing and automation to help deliver high-quality applications quickly.
+
+    He can be found spreading his message on Twitter as @grmpyprogrammer.
+  talks:
+    - title: An Oral History of How I Got Grumpy
+      is_keynote: true
+
+heap:
+  name: Michael Heap
+  avatar: heap.jpg
+  twitter: mheap
+  bio: |
+    Michael's a fixer at <a href="https://twitter.com/DataSift">@DataSift</a>. He works with various high volume data sources (including the Twitter firehose) in real time. Day to day, you can usually find him working with PHP or Go, with a bit of NodeJS or Python thrown in to keep things interesting.
+  talks:
+    - title: Profiling your PHP application
+      abstract: |
+        So, you've been through and changed all your double quotes to single quotes but your application still isn't running at the speed of light. What's going on?
+
+        Making an application scale is generally seen as something that only the most magical of developers can do, but it's easy once you have the correct tools. Fortunately for us, these tools are freely available online!
+
+        In this talk, we'll take a look at a few options that we have available to work out what our application is actually doing, help identify bottlenecks and fix them so that we can move on to the more important part of the project: delivering features.
+
+hofmann:
+  name: Bastian Hofmann
+  avatar: hofmann.jpg
+  twitter: bastianhofmann
+  bio: |
+    Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is mainly responsible for designing the web frontend's software architecture and caring about performance, monitoring and developer productivity. Before that he created the games and application platform and the APIs of the VZ-networks. When he is not developing stuff, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
+  talks:
+    - title: HTTP/2.0 101 Introduction
+      abstract:  |
+        After 16 years a new version of the HTTP protocol has now been finalized and wide support in browsers and web servers is coming quickly. In this talk I'll explain how HTTP and browsers work in general and what you currently have to do to make your application as fast as possible. Based on this I'll show what HTTP/2.0 is all about, what it changes and how it can help your application's performance.
+
+hulbert:
+  name: Dave Hulbert
+  avatar: hulbert.jpg
+  twitter: dave1010
+  bio: |
+    Dave is the technical lead at Base, switching between leading the development team and writing PHP back ends for mobile apps that need complex real-time data. Based in Bournemouth, he's co-founder the PHP Dorset user group and loves helping people build up their technical skills. He's a Zend Certified Engineer, but only because it sounded cool.
+  talks:
+    - title: Practical intro to using PhpSpec
+      abstract: |
+        PhpSpec is a tool for "SpecBDD". Basically test-driven development (TDD) but without the word "test" in it. This talk shows how to effectively use PhpSpec for fun and/or profit, and the advantages to using it along side other tools like PHPUnit and why it's "literally" made of awesomesauce.
+
+        We'll start off with a breakneck primer on unit testing with PHPUnit and basic TDD concepts. Then we'll move on to getting set up with PhpSpec, followed by a guided tour of its main features. By the end of the talk you'll have techniques to take advantage of your natural inclination to lazyness to actually help you write better code.
+
+goleman:
+  name: Sara Goleman
+  avatar: goleman.jpg
+  twitter: saramg
+  bio: |
+    Sara has been an internals developer on the PHP project since 4.3, and runs HHVM's open source efforts.  She's the author of "Extending and Embedding PHP" and designed HHVM's extension API.  Unapologetic day-dreamer and occasional malcontent, Sara is also responsible for the atrocities that are runkit, operator, objectifier, and many other abuses of the PHP runtime.
+  talks:
+    - title: Extended in 30 Minutes or Less, or Your Money Back
+      abstract: |
+        Language runtimes do their best to meet all your development needs, but sometimes there's some random C library you need access to from a higher level language, and it's just not there.  Learning PHP's zvals and HashTables, and its score of macros and pointers can be intimidating and off-putting.  I'll show that there's a better way:  HHVM extensions require little more experience than a firm knowledge of PHP, and a willingness to break things.  By the end of this presentation, we'll have live-coded a real-world extension wrapping a real-world library, and you'll be able to as well.
+
+        * Offer of money back is satirical in nature and does not guarantee actual refund for any purposes. :)
+
+mikola:
+  name: Jeremy Mikola
+  avatar: mikola.jpg
+  twitter: jmikola
+  bio: |
+    Jeremy Mikola is a software engineer at MongoDB's NYC office. As a member of the driver and evangelism team, he helps develop the PHP driver and contributes to various OSS projects, such as Doctrine ODM and React PHP. Jeremy lives in Hoboken, NJ and is known to enjoy a good sandwich.
+  talks:
+    - title: JeoPHPardy!
+      abstract: A gamey thing involving PHP.
+
+pivetta:
+  name: Marco Pivetta
+  avatar: pivetta.png
+  twitter: ocramius
+  bio: |
+    Marco "Ocramius" Pivetta is a software consultant at Roave.
+    He is an experienced PHP developer, and helps maintaining ZendFramework 2 and Doctrine ORM.
+    Marco is also active in the PHP community as a mentor and supporter.
+    When not coding for work, he usually hacks together new concepts and open source libraries, or simply provides Q&amp;A on IRC.
+  talks:
+    - title: Extremely defensive PHP programming
+      abstract: |
+        Resistant, highly testable, safe and maintainable code... or not?
+
+        There are a thousand ways to break your code, and a lot of ways to prevent that from happening.
+
+        Let's explore defensive programming and learn how to protect our code from invalid usage.
+
+riley:
+  name: Chris Riley
+  avatar: riley.jpg
+  twitter: giveupalready
+  bio: |
+    Chris is a freelance consultant based in York, Uk with experience working in the public sector, small and large companies throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework.
+  talks:
+    - title: The secrets of Cryptography
+      abstract: |
+        Alice and Bob have secrets they want to talk about without Eve being able to listen in. Worse yet, the mischievous Mallory delights in changing messages sent between parties. In such a hostile environment how can Alice talk to Bob without their messages being overheard and how can she be sure that it was Bob that sent the message in the first place?
+
+        This talk will take a brief look at historic codes and ciphers before taking a look at modern day Cryptography. If you want to be able to know the difference between a block cipher and a stream cipher or get a glimpse into the mathematics behind public key Cryptography this talk is for you.
+
+shaw:
+  name: Clair Shaw
+  avatar: shaw.jpg
+  twitter: clairs
+  bio: |
+    Clair is a freelance software developer and tester, who enjoys talking about QA and what's wrong with everything to anyone who will listen.
+
+    An active community member, when she isn't testing and breaking your hard work, Clair enjoy writing the best code she can, trying to learn to make better code, and trying to code better by working on and studying processes.
+  talks:
+    - title: There's more to code reviews than you might think
+      abstract: |
+        So, you do code reviews, and that's great. But there's always more that you can check during the review. More places you can check for any potential bugs or problems before deployment, before you find yourself with technical debt. Or worse: unforeseen downtime.
+
+        In this talk I will be going through the things that you should be checking to ensure confidence for developers, project owners and stakeholders. We'll be looking at documentation, commit messages, and common code problems, with examples and tips along the way.
+
+sherry:
+  name: Chris Sherry
+  avatar: sherry.png
+  twitter: tweetingsherry
+  bio: |
+    Chris is a Web Application Engineer at We Are Base in Bournemouth and regular contributor to PHPDorset. Starting out as a designer, he has gradually moved more and more towards back end development and dev ops in his career.
+
+    Chris is an advocate for the PHP and WordPress communities, and  has given talks at [PHPDorset](https://joind.in/talk/view/13715), BrightonPHP, PHPSurrey, Barcamp Bournemouth and Barcamp Southampton. He is looking forward to touring more PHP user groups and WordPress user groups this coming year.
+  talks:
+    - title: WordPress for the modern PHP developer
+      abstract: |
+        I have a love-hate relationship with WordPress, but whether you like it or not, it powers 23% of the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites and are now highly customised web applications. However the modern tools we use as PHP developers can be tricky to utilise with the popular blogging platform.
+
+        This technical talk will guide you through how to make the use of Git, Composer, and other tools familiar to PHP developers within your WordPress install - and help you take back control of your themes, plug-ins, database and environments in a growing application.
