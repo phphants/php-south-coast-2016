@@ -3,9 +3,13 @@
         tr {
             &.talk {
                 td {
-                    padding: 12px;
+                    padding: 12px 12px 30px 12px;
 
-                    padding-bottom: 30px;
+                    &:nth-of-type(2),
+                    &:nth-of-type(3) {
+                        border-left: 1px solid #CCC;
+                    }
+
 
                     img {
                         margin: 0 15px 10px 0;
@@ -19,5 +23,30 @@
             }
         }
 
+    }
+
+    .row {
+
+        background-color: #f9f9f9;
+        padding: 12px 8px;
+        border-bottom: 1px solid #ddd;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+
+        &.talk {
+            background-color: white;
+
+            .time {
+                font-size: 1.4em;
+            }
+        }
+
+        img {
+            margin: 0 15px 10px 0;
+            float: left;
+            width: 120px;
+        }
     }
 }
