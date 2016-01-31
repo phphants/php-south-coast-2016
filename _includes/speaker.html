@@ -9,7 +9,7 @@
                 <img src="/img/speakers/{{ speaker.avatar }}" alt="{{ speaker.name }}" class="img-responsive img-thumbnail pull-left"/>
             {% endif %}
 
-            <p>{{ speaker.bio | newline_to_br}}</p>
+            <p>{{ speaker.bio | markdownify | newline_to_br}}</p>
 
             {% if speaker.twitter %}
                 <p>
