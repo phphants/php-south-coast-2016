@@ -154,7 +154,7 @@ mikola:
   talks:
     - title: JeoPHPardy!
       abstract: |
-        A fun PHP gameshow!
+        A PHP-themed gameshow: Please give your answer in the form of a question
 
 pivetta:
   name: Marco Pivetta
