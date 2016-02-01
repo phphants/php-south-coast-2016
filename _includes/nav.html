@@ -15,7 +15,6 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://cfp.phpsouthcoast.co.uk">Call for Speakers</a></li>
                 {% assign pages = site.pages | sort:"order" %}
                 {% for node in pages %}
                     {% if node.menu == 'main' %}
