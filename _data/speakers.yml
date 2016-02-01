@@ -42,7 +42,7 @@ baker:
 
     He has been working in the computer software industry since before symbolics.com was registered as a domain name, before the term "cyberspace" was first used in fiction, when Linus Torvalds and Rasmus Lerdorf were still at high school, and Mrs. Zuckerberg had yet to give birth to a bouncing baby social network enabler; and has been developing for the Web in a variety of languages since the days when the Tim Berners-Lee's creation comprised less than 1,000 sites.
 
-    Over those years, he has contributed to a number of open source projects: some still extant, others lost to history, including a minor submission to PHP's SPL. Currently he is coordinator and lead developer for the PHPExcel library, and a coordinator and developer on the PHPOffice library suite (PHPWord, PHPPresentation, PHPProject and PHPVisio). Most recently, he has been working on new datastructures such as Tries, Quadtrees and Matrices; hoping that he'll be able to get them included in SPL.
+    Over those years, he has contributed to a number of open source projects: some still extant, others lost to history, including a minor submission to PHP's SPL. Currently he is coordinator and lead developer for the [PHPExcel](https://github.com/PHPOffice/PHPExcel) library, and a coordinator and developer on the [PHPOffice](https://github.com/PHPOffice) library suite (PHPWord, PHPPresentation, PHPProject and PHPVisio). Most recently, he has been working on new datastructures such as Tries, Quadtrees and Matrices; hoping that he'll be able to get them included in SPL.
 
     His particular interests include PHP integration with office suites, Textual analysis, Geodata and geographic information systems, and "big data" and data analysis.
   talks:
