@@ -132,7 +132,7 @@ hulbert:
 
         We'll start off with a breakneck primer on unit testing with PHPUnit and basic TDD concepts. Then we'll move on to getting set up with PhpSpec, followed by a guided tour of its main features. By the end of the talk you'll have techniques to take advantage of your natural inclination to lazyness to actually help you write better code.
 
-Golemon:
+golemon:
   name: Sara Golemon
   avatar: Golemon.jpg
   twitter: saramg
