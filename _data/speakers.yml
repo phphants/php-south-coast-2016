@@ -20,7 +20,7 @@ arbezzano:
   talks:
     - title: Parallel made easy
       abstract: |
-        Thanks to cloud computing, the ability to split processes on different machines is now very easy. During this talk I will share an experience made in Corley SRL with the Zend Framework Core Team to split all ZF's git history in different isolated components (one of the main feature of ZF3). I chose this case study because it helps me to explain as it is easy with AWS, a bit of PHP and bash split an history made of other 20,000 commits.
+        Thanks to cloud computing, the ability to split processes on different machines is now very easy. During this talk Gianluca will share his experience with the Zend Framework Core Team to split their repository into different isolated components (one of the main features of ZF3) whilst retaining git history. This is a good case study due to their use of AWS, PHP and bash to split their git history of over 20,000 commits.
 
 barnes:
   name: Tess Barnes
