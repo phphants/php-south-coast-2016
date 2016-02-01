@@ -48,7 +48,7 @@ baker:
   talks:
     - title: A Functional Guide to Cat Herding with PHP Generators
       abstract: |
-        When working with arrays in PHP, three of the most useful functions available to us are arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the value of array elements, select a subset of values from an array, or reduce an array to a single value; all using a callback function to determine exactly what logic should be applied. The use of the callback makes them extremely flexible, and these functions can be particularly powerful, especially when combined (or chained) together.
+        When working with arrays in PHP, three of the most useful functions available to us are array_map(), array_filter() and array_reduce(), which allow us to walk an array and manipulate the value of array elements, select a subset of values from an array, or reduce an array to a single value; all using a callback function to determine exactly what logic should be applied. The use of the callback makes them extremely flexible, and these functions can be particularly powerful, especially when combined (or chained) together.
 
          However, these functions only work with standard PHP arrays; so if we are using Generators as a data source instead of an array, then we can't take advantage of the functionality that they provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators (and also to other Traversable objects like SPL Iterators), giving us access to all of the flexibility and power that mapping, filtering and reducing can offer, and with all the benefits that Generators can offer our code.
 
