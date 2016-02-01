@@ -1,0 +1,266 @@
+---
+title: Schedule
+layout: default
+---
+
+<div id="main" class="schedule">
+    <div class="container">
+        <header>
+            <h2>{{page.title}}</h2>
+            <p class="lead">The conference takes place on one day, {{ site.confDate }}.</p>
+        </header>
+
+        <div class="row">
+            <div class="col-md-1 time">08:00</div>
+            <div class="col-md-11">
+                <strong>Registration &amp; refreshments</strong>
+                <p><i class="fa fa-fw fa-map-marker"></i><em>Atrium</em></p>
+                <p>Please arrive between 8am and 9am to register. A light breakfast including tea, coffee and
+                    pastries will be available.</p>
+            </div>
+        </div>
+
+        <div class="row talk">
+            <div class="col-md-1 time">09:10</div>
+            <div class="col-md-6">
+                <h4>
+                    <em class="small">Chris' first ever UK talk</em>
+                    <img src="/img/speakers/{{ site.data.speakers.hartjes.avatar }}" class="img-responsive img-rounded"
+                         alt="Chris Hartjes"/>
+                    <br>
+                    Keynote: An Oral History of How I Got Grumpy
+                </h4>
+                <h5>
+                    <i class="fa fa-user fa-fw"></i>
+                    <a href="/speakers/chris-hartjes/">Chris Hartjes</a>
+                </h5>
+                <p>
+                    <i class="fa fa-fw fa-map-marker"></i><em>Spectrum IT Room</em>
+                </p>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 time">09:50</div>
+            <div class="col-md-6">
+                Room change
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+        <div class="row talk">
+            <div class="col-md-1 time">10:00</div>
+            <div class="col-md-6">
+                <h4>
+                    <img src="/img/speakers/{{ site.data.speakers.heap.avatar }}" class="img-responsive img-rounded"
+                         alt="Michael Heap"/>
+                    Profiling Your PHP Application
+                </h4>
+                <h5>
+                    <i class="fa fa-user fa-fw"></i>
+                    <a href="/speakers/michael-heap/">Michael Heap</a>
+                </h5>
+                <p>
+                    <i class="fa fa-fw fa-map-marker"></i><em>Spectrum IT Room</em>
+                </p>
+                <p>
+                    So, you've been through and changed all your double quotes to single quotes but your
+                    application still isn't running at the speed of light. What's going on?
+                </p>
+                <p>
+                    Making an application scale is generally seen as something that only the most magical of
+                    developers can do, but it's easy once you have the correct tools. Fortunately for us, these
+                    tools are freely available online!
+                </p>
+                <p>
+                    In this talk, we'll take a look at a few options that we have available to work out what our
+                    application is actually doing, help identify bottlenecks and fix them so that we can move on to
+                    the more important part of the project: delivering features. "
+                </p>
+            </div>
+            <div class="col-md-5">
+                <h4>
+                    <img src="/img/speakers/{{ site.data.speakers.baker.avatar }}" class="img-responsive img-rounded"
+                         alt="Mark Baker"/>
+                    A Functional Guide to Cat Herding with PHP Generators
+                </h4>
+                <h5>
+                    <i class="fa fa-user fa-fw"></i>
+                    <a href="/speakers/mark-baker/">Mark Baker</a>
+                </h5>
+                <p>
+                    <i class="fa fa-fw fa-map-marker"></i><em>TBC Room</em>
+                </p>
+                <p>
+                    When working with arrays in PHP, three of the most useful functions available to us are
+                    arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the
+                    value of array elements, select a subset of values from an array, or reduce an array to a single
+                    value; all using a callback function to determine exactly what logic should be applied. The use
+                    of the callback makes them extremely flexible, and these functions can be particularly powerful,
+                    especially when combined (or chained) together.
+                </p>
+                <p>
+                    However, these functions only work with standard PHP arrays; so if we are using Generators as a
+                    data source instead of an array, then we can't take advantage of the functionality that they
+                    provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators
+                    (and also to other Traversable objects like SPL Iterators), giving us access to all of the
+                    flexibility and power that mapping, filtering and reducing can offer, and with all the benefits
+                    that Generators can offer our code.
+                </p>
+                <p>So how do we go about implementing filter(), map() and reduce() functions for our Generators? How
+                    do we use those functions in our applications? I'll be answering those two questions, and
+                    explaining how I keep track of my cats armed only with a GPS Tracker and, PHP Generators, and
+                    filter/map/reduce.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 time">10:50</div>
+            <div class="col-md-6">
+                <strong>Break &amp; refreshments</strong>
+                <p><i class="fa fa-fw fa-map-marker"></i><em>Atrium</em></p>
+                <p>Tea and coffee will be served.</p>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+        <div class="row talk">
+            <div class="col-md-1 time">11:15</div>
+            <div class="col-md-6">
+                <h4>
+                    <img src="/img/speakers/{{ site.data.speakers.allen.avatar }}"
+                         class="img-responsive img-rounded"
+                         alt="Rob Allen"/>
+                    Building APIs with Slim 3
+                </h4>
+                <h5>
+                    <i class="fa fa-user fa-fw"></i>
+                    <a href="/speakers/rob-allen/">Rob Allen</a>
+                </h5>
+                <p>
+                    Fast, discrete APIs are a key part of many web applications and Slim 3 is a fantastic
+                    platform
+                    for building them. With a focus on PSR-7, the new standard for HTTP messaging in PHP, Slim's
+                    middleware focus and ability to get out of the way ensure thats you can buld APIs that are a
+                    joy
+                    to work with. We'll cover content-type handling, accept header awareness, error handling and
+                    all
+                    the other things required to ensure that your APIs are easy to integrate with. By the end of
+                    this session you will be well placed to write your own APIs with Slim 3.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <h4>
+                    <img src="/img/speakers/{{ site.data.speakers.shaw.avatar }}"
+                         class="img-responsive img-rounded"
+                         alt="Clair Shaw"/>
+                    There's More to Code Reviews than You Might Think
+                </h4>
+                <h5>
+                    <i class="fa fa-user fa-fw"></i>
+                    <a href="/speakers/clair-shaw/">Clair Shaw</a>
+                </h5>
+                <p>
+                    So, you do code reviews, and that's great. But there's always more that you can check during
+                    the
+                    review. More places you can check for any potential bugs or problems before deployment,
+                    before
+                    you find yourself with technical debt. Or worse: unforeseen downtime.
+                </p>
+                <p>
+                    In this talk I will be going through the things that you should be checking to ensure
+                    confidence
+                    for developers, project owners and stakeholders. We'll be looking at documentation, commit
+                    messages, and common code problems, with examples and tips along the way.
+                </p>
+            </div>
+        </div>
+
+        <div class="row talk">
+            <div class="col-md-1 time">11:45</div>
+            <div class="col-md-6"></div>
+            <div class="col-md-5">
+                <h4>
+                    <img src="/img/speakers/{{ site.data.speakers.barnes.avatar }}" class="img-responsive img-rounded"
+                         alt="Tess Barnes"/>
+                    Version Control - Tips, Tricks and Good Citizenship
+                </h4>
+                <h5>
+                    <i class="fa fa-user fa-fw"></i>
+                    <a href="/speakers/tess-barnes/">Tess Barnes</a>
+                </h5>
+                <p>
+                    Are you nervous of version control even if you don't admit it? Have things got harder since your
+                    team expanded? Don't panic! you're not on your own. I've put together a run down of some of my
+                    tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with
+                    the remaining ones as efficiently as possible.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 time"></div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 time"></div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 time"></div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 time"></div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-5">
+
+            </div>
+        </div>
+
+    </div>
+</div>
