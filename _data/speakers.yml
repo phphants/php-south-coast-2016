@@ -134,7 +134,7 @@ hulbert:
 
 golemon:
   name: Sara Golemon
-  avatar: Golemon.jpg
+  avatar: golemon.jpg
   twitter: saramg
   bio: |
     Sara has been an internals developer on the PHP project since 4.3, and runs HHVM's open source efforts.  She's the author of "Extending and Embedding PHP" and designed HHVM's extension API.  Unapologetic day-dreamer and occasional malcontent, Sara is also responsible for the atrocities that are runkit, operator, objectifier, and many other abuses of the PHP runtime.
