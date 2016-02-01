@@ -18,7 +18,7 @@ arbezzano:
 
     Gianluca's fields of interest are various and constantly in evolution: in the last year, he worked a lot on scalable infrastructures, reaching the goal of building some of them on top of AWS, DigitalOcean and Open Stack.
   talks:
-    - title: Parallel made easy
+    - title: Parallel Made Easy
       abstract: |
         Thanks to cloud computing, the ability to split processes on different machines is now very easy. During this talk Gianluca will share his experience with the Zend Framework Core Team to split their repository into different isolated components (one of the main features of ZF3) whilst retaining git history. This is a good case study due to their use of AWS, PHP and bash to split their git history of over 20,000 commits.
 
@@ -29,7 +29,7 @@ barnes:
   bio: |
     Tess is a multi language developer at Fasthosts, an active participant in their PHPGuild and an advocate of agile principles. She spends most of her day writing, refactoring, reviewing, discussing and documenting code. In spare time she plays with ORMs, occasionally blogs at [http://blog.tessbarnes.uk](http://blog.tessbarnes.uk), sings with a covers band and spends time with her family. She relaxes by training in martial arts.
   talks:
-    - title: Version Control - tips, tricks and good citizenship
+    - title: Version Control - Tips, Tricks and Good Citizenship
       abstract: |
         Are you nervous of version control even if you don't admit it? Have things got harder since your team expanded? Don't panic! you're not on your own. Tess has put together a run down of some of her tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with the remaining ones as efficiently as possible.
 
@@ -126,7 +126,7 @@ hulbert:
   bio: |
     Dave is the technical lead at Base, switching between leading the development team and writing PHP back ends for mobile apps that need complex real-time data. Based in Bournemouth, he's co-founder the PHP Dorset user group and loves helping people build up their technical skills. He's a Zend Certified Engineer, but only because it sounded cool.
   talks:
-    - title: Practical intro to using PhpSpec
+    - title: Practical Intro to Using PhpSpec
       abstract: |
         PhpSpec is a tool for "SpecBDD". Basically test-driven development (TDD) but without the word "test" in it. This talk shows how to effectively use PhpSpec for fun and/or profit, and the advantages to using it along side other tools like PHPUnit and why it's "literally" made of awesomesauce.
 
@@ -166,7 +166,7 @@ pivetta:
     Marco is also active in the PHP community as a mentor and supporter.
     When not coding for work, he usually hacks together new concepts and open source libraries, or simply provides Q&amp;A on IRC.
   talks:
-    - title: Extremely defensive PHP programming
+    - title: Extremely Defensive PHP Programming
       abstract: |
         Resistant, highly testable, safe and maintainable code... or not?
 
@@ -181,7 +181,7 @@ riley:
   bio: |
     Chris is a freelance consultant based in York, Uk with experience working in the public sector, small and large companies throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework.
   talks:
-    - title: The secrets of Cryptography
+    - title: The Secrets of Cryptography
       abstract: |
         Alice and Bob have secrets they want to talk about without Eve being able to listen in. Worse yet, the mischievous Mallory delights in changing messages sent between parties. In such a hostile environment how can Alice talk to Bob without their messages being overheard and how can she be sure that it was Bob that sent the message in the first place?
 
@@ -196,7 +196,7 @@ shaw:
 
     An active community member, when she isn't testing and breaking your hard work, Clair enjoys writing the best code she can, trying to learn to make better code, and trying to code better by working on and studying processes.
   talks:
-    - title: There's more to code reviews than you might think
+    - title: There's More to Code Reviews than You Might Think
       abstract: |
         So, you do code reviews, and that's great. But there's always more that you can check during the review. More places you can check for any potential bugs or problems before deployment, before you find yourself with technical debt. Or worse: unforeseen downtime.
 
@@ -211,7 +211,7 @@ sherry:
 
     Chris is an advocate for the PHP and WordPress communities, and  has given talks at [PHPDorset](https://joind.in/talk/view/13715), BrightonPHP, PHPSurrey, Barcamp Bournemouth and Barcamp Southampton. He is looking forward to touring more PHP user groups and WordPress user groups this coming year.
   talks:
-    - title: WordPress for the modern PHP developer
+    - title: WordPress for the Modern PHP Developer
       abstract: |
         Chris has a love-hate relationship with WordPress, but whether you like it or not, it powers 23% of the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites and are now highly customised web applications. However the modern tools we use as PHP developers can be tricky to utilise with the popular blogging platform.
 
