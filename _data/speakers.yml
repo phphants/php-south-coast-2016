@@ -31,7 +31,7 @@ barnes:
   talks:
     - title: Version Control - tips, tricks and good citizenship
       abstract: |
-        Are you nervous of version control even if you don't admit it? Have things got harder since your team expanded? Don't panic! you're not on your own. I've put together a run down of some of my tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with the remaining ones as efficiently as possible.
+        Are you nervous of version control even if you don't admit it? Have things got harder since your team expanded? Don't panic! you're not on your own. Tess has put together a run down of some of her tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with the remaining ones as efficiently as possible.
 
 baker:
   name: Mark Baker
