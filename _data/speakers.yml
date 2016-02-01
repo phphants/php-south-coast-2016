@@ -132,9 +132,9 @@ hulbert:
 
         We'll start off with a breakneck primer on unit testing with PHPUnit and basic TDD concepts. Then we'll move on to getting set up with PhpSpec, followed by a guided tour of its main features. By the end of the talk you'll have techniques to take advantage of your natural inclination to lazyness to actually help you write better code.
 
-goleman:
-  name: Sara Goleman
-  avatar: goleman.jpg
+Golemon:
+  name: Sara Golemon
+  avatar: Golemon.jpg
   twitter: saramg
   bio: |
     Sara has been an internals developer on the PHP project since 4.3, and runs HHVM's open source efforts.  She's the author of "Extending and Embedding PHP" and designed HHVM's extension API.  Unapologetic day-dreamer and occasional malcontent, Sara is also responsible for the atrocities that are runkit, operator, objectifier, and many other abuses of the PHP runtime.
