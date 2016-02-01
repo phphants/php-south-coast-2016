@@ -14,9 +14,9 @@ arbezzano:
   avatar: arbezzano.jpg
   twitter: gianarb
   bio: |
-    Software Engineer at CurrencyFair a tech financial company. I am a PHP developer but I work on different stack layers, automation, scalability and HA. Open Source contributor for several projects, above all Zend Framework, and member of Doctrine ORM developers team. Strong believer in best developing practices and supporter of different User Groups.
+    Software Engineer at CurrencyFair, a tech financial company. Gianluca is a PHP developer who works on different stack layers, automation, scalability and HA. Open Source contributor for several projects, above all Zend Framework, and member of the Doctrine ORM developers team. He is a strong believer in best development practices and supporter of different User Groups.
 
-    My fields of interest are various and constantly in evolution: in the last year, I worked a lot on scalable infrastructures, reaching the goal of building some of them on top of AWS, DigitalOcean and Open Stack.
+    Gianluca's fields of interest are various and constantly in evolution: in the last year, he worked a lot on scalable infrastructures, reaching the goal of building some of them on top of AWS, DigitalOcean and Open Stack.
   talks:
     - title: Parallel made easy
       abstract: |
@@ -51,7 +51,7 @@ baker:
         When working with arrays in PHP, three of the most useful functions available to us are arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the value of array elements, select a subset of values from an array, or reduce an array to a single value; all using a callback function to determine exactly what logic should be applied. The use of the callback makes them extremely flexible, and these functions can be particularly powerful, especially when combined (or chained) together.
          However, these functions only work with standard PHP arrays; so if we are using Generators as a data source instead of an array, then we can't take advantage of the functionality that they provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators (and also to other Traversable objects like SPL Iterators), giving us access to all of the flexibility and power that mapping, filtering and reducing can offer, and with all the benefits that Generators can offer our code.
 
-        So how do we go about implementing filter(), map() and reduce() functions for our Generators? How do we use those functions in our applications? I'll be answering those two questions, and explaining how I keep track of my cats armed only with a GPS Tracker and, PHP Generators, and filter/map/reduce.
+        So how do we go about implementing filter(), map() and reduce() functions for our Generators? How do we use those functions in our applications? Mark will be answering those two questions, and explaining how he keeps track of his cats armed only with a GPS Tracker, PHP Generators, and filter/map/reduce.
 
 davies:
   name: Oliver Davies
@@ -64,7 +64,7 @@ davies:
       abstract: |
         [Drupal 8](https://www.drupal.org/8) was (finally) released on November 19th 2015, after almost 4 years of work and code commits by over 3,200 different contributors. Whilst it's pretty much the same as the Drupal that we know and, hopefully, love, a lot has changed behind the scenes and under the hood!
 
-        In this talk, I'll highlight some of the new features and improvements in Drupal 8, and discuss some of the benefits to Drupal site builders, themers, and module developers. I'll also talk about some of the non-technical changes and the cultural shift from "not invented here" to "proudly found elsewhere", and how we are rejoining the PHP herd.
+        In this talk, Oliver will highlight some of the new features and improvements in Drupal 8, and discuss some of the benefits to Drupal site builders, themers, and module developers. Oliver will also talk about some of the non-technical changes and the cultural shift from "not invented here" to "proudly found elsewhere", and how we are rejoining the PHP herd.
 
 ferrara:
   name: Anthony Ferrara
@@ -115,7 +115,7 @@ hofmann:
   talks:
     - title: HTTP/2.0 101 Introduction
       abstract:  |
-        After 16 years a new version of the HTTP protocol has now been finalized and wide support in browsers and web servers is coming quickly. In this talk I'll explain how HTTP and browsers work in general and what you currently have to do to make your application as fast as possible. Based on this I'll show what HTTP/2.0 is all about, what it changes and how it can help your application's performance.
+        After 16 years a new version of the HTTP protocol has now been finalized and wide support in browsers and web servers is coming quickly. In this talk Bastian will explain how HTTP and browsers work in general and what you currently have to do to make your application as fast as possible. Based on this he will show what HTTP/2.0 is all about, what it changes and how it can help your application's performance.
 
 hulbert:
   name: Dave Hulbert
@@ -139,7 +139,7 @@ goleman:
   talks:
     - title: Extended in 30 Minutes or Less, or Your Money Back
       abstract: |
-        Language runtimes do their best to meet all your development needs, but sometimes there's some random C library you need access to from a higher level language, and it's just not there.  Learning PHP's zvals and HashTables, and its score of macros and pointers can be intimidating and off-putting.  I'll show that there's a better way:  HHVM extensions require little more experience than a firm knowledge of PHP, and a willingness to break things.  By the end of this presentation, we'll have live-coded a real-world extension wrapping a real-world library, and you'll be able to as well.
+        Language runtimes do their best to meet all your development needs, but sometimes there's some random C library you need access to from a higher level language, and it's just not there.  Learning PHP's zvals and HashTables, and its score of macros and pointers can be intimidating and off-putting.  Sara will show that there's a better way:  HHVM extensions require little more experience than a firm knowledge of PHP, and a willingness to break things.  By the end of this presentation, we'll have live-coded a real-world extension wrapping a real-world library, and you'll be able to as well.
 
         * Offer of money back is satirical in nature and does not guarantee actual refund for any purposes. :)
 
@@ -197,7 +197,7 @@ shaw:
       abstract: |
         So, you do code reviews, and that's great. But there's always more that you can check during the review. More places you can check for any potential bugs or problems before deployment, before you find yourself with technical debt. Or worse: unforeseen downtime.
 
-        In this talk I will be going through the things that you should be checking to ensure confidence for developers, project owners and stakeholders. We'll be looking at documentation, commit messages, and common code problems, with examples and tips along the way.
+        In this talk Clair will be going through the things that you should be checking to ensure confidence for developers, project owners and stakeholders. We'll be looking at documentation, commit messages, and common code problems, with examples and tips along the way.
 
 sherry:
   name: Chris Sherry
@@ -210,6 +210,6 @@ sherry:
   talks:
     - title: WordPress for the modern PHP developer
       abstract: |
-        I have a love-hate relationship with WordPress, but whether you like it or not, it powers 23% of the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites and are now highly customised web applications. However the modern tools we use as PHP developers can be tricky to utilise with the popular blogging platform.
+        Chris has a love-hate relationship with WordPress, but whether you like it or not, it powers 23% of the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites and are now highly customised web applications. However the modern tools we use as PHP developers can be tricky to utilise with the popular blogging platform.
 
         This technical talk will guide you through how to make the use of Git, Composer, and other tools familiar to PHP developers within your WordPress install - and help you take back control of your themes, plug-ins, database and environments in a growing application.
