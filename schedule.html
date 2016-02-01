@@ -71,58 +71,25 @@ order: 2
                     <h4>
                         <img src="/img/speakers/{{ site.data.speakers.heap.avatar }}" class="img-responsive img-rounded"
                              alt="Michael Heap"/>
-                        Profiling Your PHP Application
+                        {{ site.data.speakers.heap.talks[0].title }}
                     </h4>
                     <h5>
                         <i class="fa fa-user fa-fw"></i>
                         <a href="/speakers/michael-heap/">Michael Heap</a>
                     </h5>
-                    <p>
-                        So, you've been through and changed all your double quotes to single quotes but your
-                        application still isn't running at the speed of light. What's going on?
-                    </p>
-                    <p>
-                        Making an application scale is generally seen as something that only the most magical of
-                        developers can do, but it's easy once you have the correct tools. Fortunately for us, these
-                        tools are freely available online!
-                    </p>
-                    <p>
-                        In this talk, we'll take a look at a few options that we have available to work out what our
-                        application is actually doing, help identify bottlenecks and fix them so that we can move on to
-                        the more important part of the project: delivering features. "
-                    </p>
+                    {{ site.data.speakers.heap.talks[0].abstract | markdownify }}
                 </td>
                 <td class="talk col-md-5">
                     <h4>
                         <img src="/img/speakers/{{ site.data.speakers.baker.avatar }}" class="img-responsive img-rounded"
                              alt="Mark Baker"/>
-                        A Functional Guide to Cat Herding with PHP Generators
+                        {{ site.data.speakers.baker.talks[0].title }}
                     </h4>
                     <h5>
                         <i class="fa fa-user fa-fw"></i>
                         <a href="/speakers/mark-baker/">Mark Baker</a>
                     </h5>
-                    <p>
-                        When working with arrays in PHP, three of the most useful functions available to us are
-                        arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the
-                        value of array elements, select a subset of values from an array, or reduce an array to a single
-                        value; all using a callback function to determine exactly what logic should be applied. The use
-                        of the callback makes them extremely flexible, and these functions can be particularly powerful,
-                        especially when combined (or chained) together.
-                    </p>
-                    <p>
-                        However, these functions only work with standard PHP arrays; so if we are using Generators as a
-                        data source instead of an array, then we can't take advantage of the functionality that they
-                        provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators
-                        (and also to other Traversable objects like SPL Iterators), giving us access to all of the
-                        flexibility and power that mapping, filtering and reducing can offer, and with all the benefits
-                        that Generators can offer our code.
-                    </p>
-                    <p>So how do we go about implementing filter(), map() and reduce() functions for our Generators? How
-                        do we use those functions in our applications? I'll be answering those two questions, and
-                        explaining how I keep track of my cats armed only with a GPS Tracker and, PHP Generators, and
-                        filter/map/reduce.
-                    </p>
+                    {{ site.data.speakers.baker.talks[0].abstract | markdownify }}
                 </td>
             </tr>
             </tbody>
@@ -186,17 +153,7 @@ order: 2
                         <i class="fa fa-user fa-fw"></i>
                         <a href="/speakers/clair-shaw/">Clair Shaw</a>
                     </h5>
-                    <p>
-                        So, you do code reviews, and that's great. But there's always more that you can check during the
-                        review. More places you can check for any potential bugs or problems before deployment, before
-                        you find yourself with technical debt. Or worse: unforeseen downtime.
-                    </p>
-                    <p>
-
-                        In this talk I will be going through the things that you should be checking to ensure confidence
-                        for developers, project owners and stakeholders. We'll be looking at documentation, commit
-                        messages, and common code problems, with examples and tips along the way.
-                    </p>
+                    {{ site.data.speakers.shaw.talks[0].abstract | markdownify }}
                 </td>
             </tr>
             <tr class="talk">
@@ -211,12 +168,7 @@ order: 2
                         <i class="fa fa-user fa-fw"></i>
                         <a href="/speakers/tess-barnes/">Tess Barnes</a>
                     </h5>
-                    <p>
-                        Are you nervous of version control even if you don't admit it? Have things got harder since your
-                        team expanded? Don't panic! you're not on your own. I've put together a run down of some of my
-                        tricks, tips and "good citizen" techniques to avoid the worst kinds of conflicts and deal with
-                        the remaining ones as efficiently as possible.
-                    </p>
+                    {{ site.data.speakers.barnes.talks[0].abstract | markdownify }}
                 </td>
             </tr>
             </tbody>
@@ -354,7 +306,7 @@ order: 2
                         <a href="/speakers/gianluca-arbezzano/">Gianluca Arbezzano</a>
                     </h5>
                     <p>
-                        {{ site.data.speakers.arbezzano.talks[0].abstract }}
+                        {{ site.data.speakers.arbezzano.talks[0].abstract | markdownify }}
                     </p>
                 </td>
             </tr>
@@ -404,11 +356,7 @@ order: 2
                         <a href="/speakers/bastian-hofmann/">Bastian Hofmann</a>
                     </h5>
                     <p>
-                        After 16 years a new version of the HTTP protocol has now been finalized and wide support in
-                        browsers and web servers is coming quickly. In this talk I'll explain how HTTP and browsers work
-                        in general and what you currently have to do to make your application as fast as possible. Based
-                        on this I'll show what HTTP/2.0 is all about, what it changes and how it can help your
-                        application's performance.
+                        {{ site.data.speakers.hofmann.talks[0].abstract | markdownify }}
                     </p>
                 </td>
                 <td>
@@ -422,16 +370,7 @@ order: 2
                         <a href="/speakers/oliver-davies/">Oliver Davies</a>
                     </h5>
                     <p>
-                        <a href="https://www.drupal.org/8">Drupal 8</a> was (finally) released on November 19th 2015,
-                        after almost 4 years of work and code commits by over 3,200 different contributors. Whilst
-                        it's pretty much the same as the Drupal that we know and, hopefully, love, a lot has changed
-                        behind the scenes and under the hood!
-                    </p>
-                    <p>
-                        In this talk, I'll highlight some of the new features and improvements in Drupal 8, and discuss
-                        some of the benefits to Drupal site builders, themers, and module developers. I'll also talk
-                        about some of the non-technical changes and the cultural shift from "not invented here" to
-                        "proudly found elsewhere", and how we are rejoining the PHP herd.
+                        {{ site.data.speakers.davies.talks[0].abstract | markdownify }}
                     </p>
                 </td>
             </tr>
@@ -474,20 +413,7 @@ order: 2
                         <i class="fa fa-user fa-fw"></i>
                         <a href="/speakers/sara-goleman/">Sara Goleman</a>
                     </h5>
-                    <p>
-                        Language runtimes do their best to meet all your development needs, but sometimes there's some
-                        random C library you need access to from a higher level language, and it's just not there.
-                        Learning PHP's zvals and HashTables, and its score of macros and pointers can be intimidating
-                        and off-putting. I'll show that there's a better way: HHVM extensions require little more
-                        experience than a firm knowledge of PHP, and a willingness to break things. By the end of this
-                        presentation, we'll have live-coded a real-world extension wrapping a real-world library, and
-                        you'll be able to as well.
-                    </p>
-                    <p>
-
-                        * Offer of money back is satirical in nature and does not guarantee actual refund for any
-                        purposes. :)
-                    </p>
+                    {{ site.data.speakers.goleman.talks[0].abstract | markdownify }}
                 </td>
                 <td>
                     <h4>
@@ -499,17 +425,7 @@ order: 2
                         <i class="fa fa-user fa-fw"></i>
                         <a href="/speakers/chris-sherry/">Chris Sherry</a>
                     </h5>
-                    <p>
-                        I have a love-hate relationship with WordPress, but whether you like it or not, it powers 23% of
-                        the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites
-                        and are now highly customised web applications. However the modern tools we use as PHP
-                        developers can be tricky to utilise with the popular blogging platform.
-                    </p>
-                    <p>
-                        This technical talk will guide you through how to make the use of Git, Composer, and other tools
-                        familiar to PHP developers within your WordPress install - and help you take back control of
-                        your themes, plug-ins, database and environments in a growing application.
-                    </p>
+                    {{ site.data.speakers.sherry.talks[0].abstract | markdownify }}
                 </td>
             </tr>
             <tr class="talk">

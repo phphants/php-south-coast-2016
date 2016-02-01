@@ -49,6 +49,7 @@ baker:
     - title: A Functional Guide to Cat Herding with PHP Generators
       abstract: |
         When working with arrays in PHP, three of the most useful functions available to us are arraymap(), arrayfilter() and array_reduce(), which allow us to walk an array and manipulate the value of array elements, select a subset of values from an array, or reduce an array to a single value; all using a callback function to determine exactly what logic should be applied. The use of the callback makes them extremely flexible, and these functions can be particularly powerful, especially when combined (or chained) together.
+
          However, these functions only work with standard PHP arrays; so if we are using Generators as a data source instead of an array, then we can't take advantage of the functionality that they provide. Fortunately, it's very easy to emulate that functionality and apply it to Generators (and also to other Traversable objects like SPL Iterators), giving us access to all of the flexibility and power that mapping, filtering and reducing can offer, and with all the benefits that Generators can offer our code.
 
         So how do we go about implementing filter(), map() and reduce() functions for our Generators? How do we use those functions in our applications? Mark will be answering those two questions, and explaining how he keeps track of his cats armed only with a GPS Tracker, PHP Generators, and filter/map/reduce.
@@ -90,6 +91,7 @@ hartjes:
   talks:
     - title: An Oral History of How I Got Grumpy
       is_keynote: true
+      abstract: |
 
 heap:
   name: Michael Heap
@@ -98,7 +100,7 @@ heap:
   bio: |
     Michael's a fixer at <a href="https://twitter.com/DataSift">@DataSift</a>. He works with various high volume data sources (including the Twitter firehose) in real time. Day to day, you can usually find him working with PHP or Go, with a bit of NodeJS or Python thrown in to keep things interesting.
   talks:
-    - title: Profiling your PHP application
+    - title: Profiling Your PHP Application
       abstract: |
         So, you've been through and changed all your double quotes to single quotes but your application still isn't running at the speed of light. What's going on?
 
@@ -141,7 +143,7 @@ goleman:
       abstract: |
         Language runtimes do their best to meet all your development needs, but sometimes there's some random C library you need access to from a higher level language, and it's just not there.  Learning PHP's zvals and HashTables, and its score of macros and pointers can be intimidating and off-putting.  Sara will show that there's a better way:  HHVM extensions require little more experience than a firm knowledge of PHP, and a willingness to break things.  By the end of this presentation, we'll have live-coded a real-world extension wrapping a real-world library, and you'll be able to as well.
 
-        * Offer of money back is satirical in nature and does not guarantee actual refund for any purposes. :)
+        *\* Offer of money back is satirical in nature and does not guarantee actual refund for any purposes. :)*
 
 mikola:
   name: Jeremy Mikola
@@ -151,7 +153,8 @@ mikola:
     Jeremy Mikola is a software engineer at MongoDB's NYC office. As a member of the driver and evangelism team, he helps develop the PHP driver and contributes to various OSS projects, such as Doctrine ODM and React PHP. Jeremy lives in Hoboken, NJ and is known to enjoy a good sandwich.
   talks:
     - title: JeoPHPardy!
-      abstract: A gamey thing involving PHP.
+      abstract: |
+        A fun PHP gameshow!
 
 pivetta:
   name: Marco Pivetta
