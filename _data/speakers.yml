@@ -98,7 +98,7 @@ heap:
   avatar: heap.jpg
   twitter: mheap
   bio: |
-    Michael's a fixer at <a href="https://twitter.com/DataSift">@DataSift</a>. He works with various high volume data sources (including the Twitter firehose) in real time. Day to day, you can usually find him working with PHP or Go, with a bit of NodeJS or Python thrown in to keep things interesting.
+    Michael's a fixer at <a href="https://twitter.com/DataSift">@DataSift</a>. He works with various high volume data sources (including the Facebook firehose) in real time. Day to day, you can usually find him working with PHP or Go, with a bit of NodeJS or Python thrown in to keep things interesting.
   talks:
     - title: Profiling Your PHP Application
       abstract: |
