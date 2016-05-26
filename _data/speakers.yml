@@ -3,7 +3,7 @@ allen:
   avatar: allen.jpg
   twitter: akrabat
   bio: |
-    Rob Allen is a software developer and consultant with many years of web development experience using PHP and related technologies. He contributes to Zend Framework and other open source projects. A Zend Framework specialist, Rob is a member of the ZF Community team and also wrote Zend Framework in Action. He is UK-based and runs [Nineteen Feet Limited](http://19ft.com), focussing on web development, training and consultancy.
+    Rob Allen is a software developer and consultant with many years of web development experience using PHP and related technologies. He is part of Slim Framework's leadership team and contributes to other open source projects. Rob is also a member of the Zend Framework Community team and wrote Zend Framework in Action. He is UK-based and runs [Nineteen Feet Limited](http://19ft.com), focussing on web development, training and consultancy.
   talks:
     - title: Building APIs with Slim 3
       abstract: |
