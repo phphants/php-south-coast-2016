@@ -72,7 +72,7 @@ ferrara:
   avatar: ferrara.jpg
   twitter: ircmaxell
   bio: |
-    Anthony Ferrara works at Grovo as Director of Engineering. He specializes in Object Oriented Design, Application Architecture, Web Application Security and PHP. He is a contributor to multiple Open Source projects, as well as the PHP community as a whole. You can follow his blog at <a href="blog.ircmaxell.com">blog.ircmaxell.com</a> or on Twitter at @ircmaxell.
+    Anthony Ferrara works at Grovo as Director of Engineering. He specializes in Object Oriented Design, Application Architecture, Web Application Security and PHP. He is a contributor to multiple Open Source projects, as well as the PHP community as a whole. You can follow his blog at <a href="http://blog.ircmaxell.com">blog.ircmaxell.com</a> or on Twitter at @ircmaxell.
   talks:
     - title: Anatomy of a Type System
       abstract: |
