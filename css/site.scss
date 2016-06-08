@@ -45,8 +45,8 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .intro-message > h1 {
@@ -66,10 +66,10 @@ h6 {
 }
 
 .intro-message {
-    a,
-    a:hover,
-    a:active,
-    a:focus {
+    a.btn-lg,
+    a.btn-lg:hover,
+    a.btn-lg:active,
+    a.btn-lg:focus {
         white-space: normal;
         font-size: 3em;
         padding: 0.5em 1.5em;
@@ -83,20 +83,22 @@ h6 {
 
 @media(max-width:767px) {
     .intro-message {
+
         padding-bottom: 15%;
-    }
 
-    .intro-message > h1 {
-        font-size: 3em;
-    }
+        > h1 {
+            font-size: 3em;
+        }
 
-    .intro-message a {
-        padding: 0.5em;
-        font-size: 2em;
-    }
-
-    .intro-message a:hover {
-        padding: 0.5em;
+        a.btn-lg {
+            &,
+            &:hover,
+            &:active,
+            &:focus {
+                padding: 0.5em;
+                font-size: 2em;
+            }
+        }
     }
 
     ul.intro-social-buttons > li {
