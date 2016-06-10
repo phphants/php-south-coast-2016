@@ -1,0 +1,14 @@
+There are two ciphertext's both are encrypted in exactly the same way, so once you break the first one, you should be able to easily decipher the second one to reveal the name of a well known PHP personality.
+
+To enter the competition fill out the google form here: http://goo.gl/forms/dQG04MZSSdNoRHds1 and fill in the decrypted version of the SECOND (shorter) ciphertext.
+
+The winner will be drawn from all the correct entries before the closing.
+
+In the event that no correct answers are received before the deadline, the deadline will be extended and the prize will be awarded to the first
+correct answer received.
+
+Hints:
+
+- This challenge can be solved by hand using Pen and paper, but you may find it easier to write a short program or two to help you.
+
+- The cipher being used is a slightly improved version of one of the historic ciphers I describe in my talk later today.
