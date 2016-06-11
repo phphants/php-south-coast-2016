@@ -12,3 +12,8 @@ Hints:
 - This challenge can be solved by hand using Pen and paper, but you may find it easier to write a short program or two to help you.
 
 - The cipher being used is a slightly improved version of one of the historic ciphers I describe in my talk later today.
+
+
+CIPHER TEXTS:
+ - https://2016.phpsouthcoast.co.uk/cipher-challenge/ciphertext1.txt
+ - https://2016.phpsouthcoast.co.uk/cipher-challenge/ciphertext2.txt
