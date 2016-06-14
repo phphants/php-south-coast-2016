@@ -25,10 +25,10 @@
                         {% endif %}
                     {% endif %}
                 {% endfor %}
-               <li>
-                   <form action="{{site.ticketsUrl}}" class="navbar-form">
+               <li>{% assign tshirt = site.pages | where:"id","tshirt" %}
+                   <form action="{{tshirt[0].url}}" class="navbar-form">
                        <button type="submit" class="btn btn-primary">
-                           Buy Tickets
+                           Buy T-Shirt
                        </button>
                    </form>
                </li>
