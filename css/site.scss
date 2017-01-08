@@ -195,7 +195,7 @@ h6 {
 }
 
 #main {
-    margin-top: 50px;
+    margin-top: 90px;
     padding-bottom: 120px;
 }
 
@@ -213,6 +213,26 @@ footer {
     }
     a:hover {
         text-decoration: none;
+    }
+}
+
+.info-box {
+    display: block;
+    padding: 10px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    background-color: $phpsc-blue;
+
+    &:active,
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: darken($phpsc-blue, 5%)
+    }
+
+    @media(max-width: 360px) {
+        padding: 5px;
     }
 }
 
